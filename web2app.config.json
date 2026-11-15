@@ -1,0 +1,36 @@
+{
+  "generator": "web2app-studio",
+  "generatedAt": "2026-11-15T01:57:24.983Z",
+  "appName": "My movie",
+  "packageId": "com.site.myapp",
+  "websiteUrl": "https://site-agentlucife.vercel.app/",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minSdk": 24,
+  "theme": "system",
+  "colors": {
+    "primary": "#10b981",
+    "splashBackground": "#0a0a0a",
+    "statusBar": "#ffff00",
+    "navigationBar": "#0a0a0a"
+  },
+  "navigation": {
+    "externalLinks": "external-browser",
+    "allowNavigation": [],
+    "showLoadingIndicator": true
+  },
+  "features": {
+    "camera": false,
+    "gallery": true,
+    "fileUploads": true,
+    "fileDownloads": false,
+    "location": true,
+    "pushNotifications": false,
+    "share": false,
+    "deepLinks": false,
+    "biometric": false,
+    "statusBar": true,
+    "offlinePage": true
+  },
+  "deepLink": {}
+}

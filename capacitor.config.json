@@ -1,0 +1,44 @@
+{
+  "appId": "com.site.myapp",
+  "appName": "My movie",
+  "webDir": "www",
+  "loggingBehavior": "none",
+  "server": {
+    "url": "https://site-agentlucife.vercel.app/",
+    "hostname": "site-agentlucife.vercel.app",
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "allowNavigation": [
+      "site-agentlucife.vercel.app"
+    ],
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#0a0a0a"
+  },
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#0a0a0a",
+    "scrollEnabled": true,
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#0a0a0a",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    },
+    "StatusBar": {
+      "style": "DEFAULT",
+      "backgroundColor": "#ffff00",
+      "overlaysWebView": false
+    }
+  }
+}
